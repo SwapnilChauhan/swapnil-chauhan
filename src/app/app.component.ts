@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
+// decorator
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+// ng 5 logic
 export class AppComponent {
-  title = 'Angular 5 world';
+  title = 'Swapnil Chauhan';
 }
