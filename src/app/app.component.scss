@@ -1,0 +1,17 @@
+.center {
+  text-align: center;
+  float: center;
+}
+.blinking{
+  animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+.marginTop {
+  margin: 10px;
+}

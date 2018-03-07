@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 // ng 5 logic
 export class AppComponent {
   title = 'Swapnil Chauhan';
+  subTitle = 'Associate Senior Frontend Developer';
 }
